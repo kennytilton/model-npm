@@ -1,12 +1,15 @@
 {
-  "name": "model-npm",
-  "version": "1.0.0",
+  "name": "@kennytilton/model",
+  "version": "3.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "Model.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Kenneth Tilton <kentilton@gmail.com> (https://github.com/kennytilton)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@kennytilton/cells": "^3.0.0"
+  }
 }
